@@ -1,0 +1,107 @@
+
+html{
+    height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+    color:#fff;
+    background-color: rgb(16, 106, 112);
+}
+
+
+.content{
+    margin:80px auto;
+}
+
+.container-sm{
+    width:640px;
+}
+
+.main-title{
+    margin:50px auto 20px auto;
+}
+
+.main-title h1{
+    color:#fff;
+    font-weight: 900;
+    font-size:50px;
+    margin:10px auto;
+    text-align: center;
+}
+
+
+
+.display-region{
+    width:100%;
+    background-color:rgba(0, 0, 0,0.1);
+    padding:10px 0;
+}
+
+
+
+.display-region div{
+    float:left;
+    margin-left: 10px;
+    margin-bottom:5px;
+    margin-top:5px;  
+    position: relative;
+    padding: 0;
+}
+
+div.info{
+    position: absolute;
+    left:-10px;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    color:rgba(0, 0, 0,0.3)
+}
+
+.display-region div:hover{
+    background-color:palegoldenrod;
+}
+
+a{
+    display: block;
+    height:140px;
+    width:140px;
+    float:left;
+    /* padding: */
+}
+
+a.item1{
+    background:url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67I3VAKAEBKMZQAAAAAACA8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item2{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAAAA8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item3{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAAAI8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item4{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAAAQ8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item5{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAAAY8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item6{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAABA8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item7{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAABI8_160x140.png) 100% 100% no-repeat;
+}
+
+a.item8{
+    background: url(http://qhyxpic.oss.kujiale.com/2016/08/25/K67HYXIKAEBKMZQAAAAAABQ8_160x140.png) 100% 100% no-repeat;
+}
+
+

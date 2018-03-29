@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "E:\\de\\django\\Scripts\\python.exe",
+    "python.linting.pylintArgs": ["--disable=C,R","--load-plugins", "pylint_django"]
+}

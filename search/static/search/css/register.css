@@ -1,0 +1,12 @@
+
+.jumbotron h1{
+    font-size:40px;
+}
+
+.jumbotron .agreement{
+    font-size:15px;
+    /* height:100px; */
+    overflow-y:scroll;
+    /* text-overflow:ellipsis ; */
+    white-space: pre-line;
+}

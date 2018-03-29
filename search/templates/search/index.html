@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>四叶草模型搜索</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'search/css/3d_main.css' %}"/>
+    <script type="text/javascript" src="{% static 'js/jquery-3.3.1.js' %}"></script>
+</head>
+<body>
+   
+    <div class="content">
+        
+        <div class="container container-sm">
+            <div class="main-title">
+                <h1>模型搜索</h1>
+            </div>
+            <form action="/search/results/" method="get">
+                {% csrf_token %}
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" id="search_edt" class="form-control" name="word" placeholder="模型名/模型"/>
+                        <div class="input-group-btn">
+                            <button id="search_btn btn-lg" class="btn btn-primary">搜索</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="container container-sm">
+            <div class="display-region  clearfix">
+               <div class="clearfix"><a href="/search/results/?word=沙发" class="item1"></a>
+                    <div class="info">沙发</div>
+                </div>
+               <div class="clearfix"><a href="/search/results/?word=双人床" class="item2"></a>
+                    <div class="info">双人床</div>
+                </div>
+               <div class="clearfix"><a href="/search/results?word=餐桌" class="item3"></a>
+                    <div class="info">餐桌</div>
+                </div>
+               <div class="clearfix"><a href="/search/results?word=茶几" class="item4"></a>
+                    <div class="info">茶几</div>
+                </div>
+               <div class="clearfix"><a href="/search/results?word=椅子" class="item5"></a>
+                    <div class="info">椅子</div>
+                </div>
+               <div class="clearfix"><a href="/search/results?word=电视柜" class="item6"></a>
+                    <div class="info">电视柜</div>
+                </div>
+               <div class="clearfix"><a href="/search/results?word=灯" class="item7"></a>
+                    <div class="info">灯</div>
+                </div>
+               <div class="clearfix"><a href="/search/results?word=洗脸" class="item8"></a>
+                    <div class="info">洗脸</div>
+                </div>
+            </ul>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="{% static 'search/js/main.js' %}"></script>
+
+</body>
+</html>
